@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 90px;
+  padding-top: 170px;
+  gap: 70px;
+}
+
+#left {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+#left h1 {
+  font-size: 145px;
+  font-weight: 500;
+  font-family: "Work Sans";
+  line-height: 170px;
+}
+#bottom-left {
+  width: 100%;
+}
+
+#color {
+  width: fit-content;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+#color1 {
+  height: 20px;
+  width: 20px;
+  background-color: burlywood;
+  border-radius: 50%;
+  margin: 3px;
+}
+#color2 {
+  height: 20px;
+  width: 20px;
+  background-color: brown;
+  border-radius: 50%;
+}
+
+#color h5 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#left h2 {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+#left p {
+  font-size: 20px;
+  width: 65%;
+  font-weight: 600;
+  color: #444;
+  line-height: 26px;
+}
+
+#right {
+  height: 90%;
+  width: 33%;
+  position: relative;
+}
+#right-top {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+#right-top h4 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Work Sans";
+}
+
+#right-top h5 {
+  font-size: 16px;
+}
+
+#right-top h5 i {
+  color: gold;
+}
+
+#right img {
+  width: 100%;
+  height: 88%;
+  object-fit: cover;
+}
+#black-gola {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-radius: 50%;
+  right: -16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 24%;
+  cursor: pointer;
+}
+
+#black-gola h5 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+#rotated{
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    left: -13%;
+    bottom: 2%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+}
